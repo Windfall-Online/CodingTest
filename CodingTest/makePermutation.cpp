@@ -1,16 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 // n = 총 갯수
 // r = 뽑을 갯수
 // depth = 몇번째를 뽑고있는가?
 // 트리를 만들어서 도식화했을 때 깊이에 해당
 
+int v[5] = {1, 2, 3, 4, 5};
 
-int v[5] = { 1, 2, 3, 4, 5 };
-
-void printV(int* arr)
+void printV(int *arr)
 {
 	for (int i = 0; i < 3; ++i)
 	{
@@ -36,7 +34,6 @@ void permutation(int n, int r, int depth)
 	}
 	return;
 }
-
 
 int main()
 {
@@ -85,6 +82,5 @@ int main()
 	{
 
 		permutation(5, 3, 0);
-
 	}
 }
