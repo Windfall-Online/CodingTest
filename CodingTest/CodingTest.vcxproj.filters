@@ -46,5 +46,17 @@
     <ClCompile Include="recursion.cpp">
       <Filter>Source Files\Week0</Filter>
     </ClCompile>
+    <ClCompile Include="10808.cpp">
+      <Filter>Source Files\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="2979.cpp">
+      <Filter>Source Files\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="10988.cpp">
+      <Filter>Source Files\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="1159.cpp">
+      <Filter>Source Files\Week1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
