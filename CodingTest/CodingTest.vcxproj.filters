@@ -6,42 +6,45 @@
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Source Files\Week0">
-      <UniqueIdentifier>{b6796da9-a490-43ae-b101-f7f8ce3845ac}</UniqueIdentifier>
+      <UniqueIdentifier>{425990d1-8df9-4638-a5f5-3cef6627a0eb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Week1">
-      <UniqueIdentifier>{41df74d4-fa9d-4165-9221-54cfee3374aa}</UniqueIdentifier>
+      <UniqueIdentifier>{6c3673bb-4ae8-48b3-a187-25aed586cc99}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\CodingTest2\combination.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\implement.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\makeCombination.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\makePermutation.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\permutation.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\prefixSum.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\recursion.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\split.cpp">
-      <Filter>Source Files\Week0</Filter>
-    </ClCompile>
-    <ClCompile Include="..\CodingTest2\2309.cpp">
+    <ClCompile Include="2309.cpp">
       <Filter>Source Files\Week1</Filter>
     </ClCompile>
-    <ClCompile Include="..\CodingTest2\2309-2.cpp">
+    <ClCompile Include="2309-2.cpp">
       <Filter>Source Files\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="split.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="CodingTest.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="combination.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="implement.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="makeCombination.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="makePermutation.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="permutation.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="prefixSum.cpp">
+      <Filter>Source Files\Week0</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion.cpp">
+      <Filter>Source Files\Week0</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
