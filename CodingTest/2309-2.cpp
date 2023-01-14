@@ -1,16 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 9명의 난쟁이 중에서 
+// 9명의 난쟁이 중에서
 // 순서에 상관없이 2명을 고르고 전체에서 빼기 후 100이 되는걸 구하는 방법
 // 재귀함수로 작성해보기
 
-
-//int input[9];
-//int sum;
-//vector<int> temp;
-//pair<int, int> ret;
-//void Combination(int* arr, int start)
+// int input[9];
+// int sum;
+// vector<int> temp;
+// pair<int, int> ret;
+// void Combination(int* arr, int start)
 //{
 //	if (temp.size() == 2)
 //	{
@@ -28,12 +27,10 @@ using namespace std;
 //		temp.pop_back();
 //	}
 //	return;
-//}
-
+// }
 
 vector<int> dwarf;
 vector<int> vec;
-
 
 void Print()
 {
@@ -60,7 +57,6 @@ void secondCombination(int depth, int startPoint)
 		{
 			return;
 		}
-		
 	}
 	for (int i = startPoint; i < 9; ++i)
 	{
@@ -72,14 +68,14 @@ void secondCombination(int depth, int startPoint)
 
 int main()
 {
-	//for (int i = 0; i < 9; ++i)
+	// for (int i = 0; i < 9; ++i)
 	//{
 	//	cin >> input[i];
 	//	sum += input[i];
-	//}
-	//sort(input, input + 9);
-	//Combination(input, -1);
-	//for (int i = 0; i < 9; ++i)
+	// }
+	// sort(input, input + 9);
+	// Combination(input, -1);
+	// for (int i = 0; i < 9; ++i)
 	//{
 	//	if (input[i] == ret.first || input[i] == ret.second)
 	//		continue;
@@ -94,5 +90,4 @@ int main()
 		dwarf.push_back(temp);
 	}
 	secondCombination(0, 0);
-
 }
