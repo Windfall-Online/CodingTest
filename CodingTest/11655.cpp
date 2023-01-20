@@ -6,5 +6,6 @@ char input[105];
 
 int main()
 {
-	cin >> input;
+	char a = 'O';
+	cout << static_cast<char>((a + 13)-26);
 }
