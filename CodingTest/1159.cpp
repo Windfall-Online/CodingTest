@@ -13,9 +13,9 @@ int main()
 	for (int i = 0; i < N; ++i)
 	{
 		cin >> input;
-		alphabet[input[0] -'a']++;
+		alphabet[input[0] - 'a']++;
 	}
-	
+
 	for (int i = 0; i < 26; ++i)
 	{
 		if (alphabet[i] >= 5)
@@ -26,5 +26,4 @@ int main()
 	}
 	if (flag == false)
 		cout << "PREDAJA";
-
 }
